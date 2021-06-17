@@ -1,4 +1,4 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -15,7 +15,6 @@
 }
 
 .header_left_text {
-    /* background-color: green; */
     width: 28rem;
     color: #969191;
     font-size: 25px;
@@ -31,7 +30,6 @@
 }
 
 .header_middle_text {
-    /* background-color: greenyellow; */
     height: 100%;
     line-height: 50px;
     margin: 0 auto;
@@ -39,7 +37,6 @@
 
 
 .header_right_text {
-    /* background-color: hotpink; */
     margin: 0 13px 0 0;
     height: 100%;
     display: flex;
@@ -51,7 +48,6 @@
 }
 
 .btn_share, .btn_detals, .btn_comments, .btn_signin {
-    /* background-color: red; */
     height: 35px;
     width: 100px;
     font-size: 15px;
@@ -92,7 +88,6 @@
     box-shadow: 2px 4px 13px -5px rgba(0,0,0,0.75);
     -webkit-box-shadow: 0px 2px 8px 1px rgba(0,0,0,0.46); 
     box-shadow: 0px 2px 8px 1px rgba(0,0,0,0.46);
-    cursor: pointer;
 }
 
 
@@ -104,7 +99,6 @@ footer {
 }
 
 .footer_left {
-    /* background-color: red; */
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -129,7 +123,6 @@ li{
 
 
 .footer_right {
-    /* background-color: aqua; */
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -145,4 +138,27 @@ li{
 
 @media screen and (min-width: 480px) {
     
+  } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+  ul {
+      text-decoration: none;
+  }
+  li {
+      display: inline;
+      padding: 10px;
+  }
+  .first_row{
+      background-color: rgb(0, 183, 255);
   }
