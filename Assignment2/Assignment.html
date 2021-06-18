@@ -19,76 +19,94 @@
 
     <link rel="stylesheet" href="https://www.ucertify.com/layout/themes/bootstrap4/ux/css/bootstrap4.css">
 
-    <link rel="stylesheet" href="https://www.ucertify.com/utils/?util=icomoon">
+    <!-- <link rel="stylesheet" href="https://www.ucertify.com/utils/?util=icomoon"> -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
 </head>
-<body>
 
-    <div class="container-fluid bg-primary">
+<body class="d-flex align-items-center">
 
-        <div class="container bg-white">
+    <div class="container-fluid bg-white height531">
+
+        <div class="container">
 
             <div class="row">
-                <div class="col">
-                <ul class="pt-lg list-unstyled border-bottom">
-                    <li class="list-inline-item p-md">
-                        <span class="align-sub s3 icomoon-my-library-24px-1 position-relative top3"></span>
-                        My Library
-                    </li>
-                    <li class="list-inline-item p-md">Enroll</li>
-                    <li class="list-inline-item p-md">Index</li>
-                    <li class="list-inline-item p-md">My Profile</li>
-                    <li class="list-inline-item p-md">Admin</li>
-                    
-                </ul>
-                </div>
+                <div class="col px-0">
 
+                    <ul class="pt-lg list-unstyled border-bottom">
+                        <li class="list-inline-item p-md">
+                            <!-- <span class="align-sub s3 icomoon-my-library-24px-1 position-relative top3"></span> -->
+                            <i class='fa fa-book'></i> My Library
+                        </li>
+                        <li class="list-inline-item p-md">Enroll</li>
+                        <li class="list-inline-item p-md">
+                            <i class='far fa-envelope pr-1'></i>Inbox
+                        </li>
+                        <li class="list-inline-item p-md">
+                            <i class='far fa-user mr-2'></i>My Profile
+                        </li>
+                        <li class="list-inline-item p-md">
+                            <i class='far fa-user mr-2'></i>Admin
+                        </li>
+                    </ul>
+                    
+                </div>
             </div>
 
 
 
 
 
-            <div class="row top_row d-flex align-items-center mx-0">
+            <div class="row top_row d-flex align-items-center">
                 <div class="col-lg-7 col-md-7 col-12 p-0">
 
                     <div class="float-left pl-0">
                         <!-- <span class="align-sub s3 search-icon position-relative top3"></span> -->
-                        <div class="dropdown">
-                            <div class="btn btn-white border dropdown-toggle" type="button">
-                              uCertify
-                            </div>
+                        <div class="height39 border rounded span3 pl-2 pr-1">
+                            
+                            <div class="float-left my-2"><span>uCertify</span></div>
+                    
+                            <div class="float-right my-2"><i class='fas fa-caret-down'></i></div>
+
+                            <div class="float-right my-2 mr-2"><i class='fas fa-close'></i></div>
+                            
                         </div>
                     </div>
 
-                    <div class="float-left pl-0">
+                    <div class="float-left pl-0 d-flex">
 
-                        <div class="btn-group pl-2">
+                        
 
-                            <div class="outline1 px-2 btn btn-light">
+                            <div class="sec_nav1 height39 px-2 bg-light d-flex justify-content-center align-items-center ml-2">
                             <!-- <span class="align-sub s3 user-icon position-relative top3"></span> -->
-                            <span class="d-none d-md-none d-sm-none d-md-inline-block d-xl-inline-block d-md-inline-block">Roaster</span>
+                            <i class="bi bi-person"></i>
+                            <span class="d-none d-md-none d-sm-none d-md-inline-block d-xl-inline-block d-md-inline-block">
+                                Roaster
+                            </span>
                             </div>
 
-                            <div class="dropdown">
-                                <div class="outline1 px-2 btn btn-light dropdown-toggle" type="button">
-                                  <!-- <span class="align-sub s3 manage-icon position-relative top3"></span> -->Manage
-                                </div>
+                            <div class="sec_nav2 height39 px-2 d-flex justify-content-center align-items-center">
+                                <span class="d-none d-md-none d-sm-none d-md-inline-block d-xl-inline-block d-md-inline-block">
+                                    Manage<i class='fas fa-angle-down ml-3'></i>
+                                </span>
                             </div>
                                 
-                            <div class="dropdown">
-                                <div class="outline1 px-2 btn btn-light dropdown-toggle" type="button">
-                                  <!-- <span class="align-sub s3 report-icon position-relative top3"></span> -->Report
-                                </div>
+                            <div class="sec_nav3 height39 px-2 d-flex justify-content-center align-items-center">
+                                <span class="d-none d-md-none d-sm-none d-md-inline-block d-xl-inline-block d-md-inline-block">
+                                    Report<i class='fas fa-angle-down ml-3'></i>
+                                </span>
                             </div>
                                 
-                            <div class="outline1 px-2 btn btn-light">
+                            <div class="sec_nav4 height39 px-2 d-flex justify-content-center align-items-center">
                                 <!-- <span class="align-sub s3 enroll-icon position-relative top3"></span> -->
                                 <span class="d-none d-md-none d-sm-none d-md-inline-block d-xl-inline-block d-md-inline-block">Enroll</span>
                             </div>
 
 
-                        </div>
+                        
 
                     </div>
 
@@ -99,13 +117,13 @@
 
                     <div class="float-right p-0 d-flex align-items-center">
 
-                        <div type="button" class="btn btn-outline-primary m-r-sm">LMS Configuration</div>
+                        <div class="height39 d-flex border rounded border-primary text-primary justify-content-center align-items-center px-3 py-2 mr-2">LMS Configuration</div>
 
-                        <div class="dropdown">
-                            <div class="btn btn-outline-primary dropdown-toggle" type="button">
-                              Export
+                        
+                            <div class="height39 width125 border rounded border-primary d-flex justify-content-center align-items-center pl-2">
+                                <i class='fas fa-file-download mr-2'></i>Export<i class='fas fa-angle-down ml-3'></i>
                             </div>
-                        </div>
+                        
                     </div>
 
                 </div>
@@ -119,45 +137,85 @@
 
 
 
-            <div class="row top_row d-flex align-items-center m-t-lg mx-0">
+            <div class="row top_row d-flex align-items-center m-t-lg">
                 <div class="col-lg-10 col-md-10 col-12 p-0">
 
-                    <div class="float-left pl-0">
+                    <div class="float-left pl-0 d-flex">
 
-                        <div class="outline1 px-2 btn btn-light">
+                        <div class="bg-light border rounded d-flex width46 height39 justify-content-center align-items-center">
                             <!-- <span class="align-sub s3 search-icon position-relative top3"></span> -->
-                            <span class="d-none d-md-none d-sm-none d-md-inline-block d-xl-inline-block d-md-inline-block">SearchIcon</span>
+                            <span class="d-none d-md-none d-sm-none d-md-inline-block d-xl-inline-block d-md-inline-block"><i class='fa fa-search'></i></span>
                         </div>
 
-                        <div class="btn-group pl-2">
+                        <!-- <div class="btn-group pl-2">
 
                             <div class="outline1 px-2 btn btn-light">
-                            <!-- <span class="align-sub s3 user-icon position-relative top3"></span> -->
-                            <span class="d-none d-md-none d-sm-none d-md-inline-block d-xl-inline-block d-md-inline-block">Roaster</span>
+                            <span class="align-sub s3 user-icon position-relative top3"></span>
+                            <i class="bi bi-person"></i><span class="d-none d-md-none d-sm-none d-md-inline-block d-xl-inline-block d-md-inline-block">Roaster</span>
                             </div>
                             
                             <div class="outline1 px-2 btn btn-light">
-                                <!-- <span class="align-sub s3 user-icon position-relative top3"></span> -->
-                                <span class="d-none d-md-none d-sm-none d-md-inline-block d-xl-inline-block d-md-inline-block">Lessons</span>
+                                <span class="align-sub s3 user-icon position-relative top3"></span>
+                                <i class='fas fa-sun'><span class="d-none d-md-none d-sm-none d-md-inline-block d-xl-inline-block d-md-inline-block"></i>Lessons</span>
                             </div>
                                 
                             <div class="outline1 px-2 btn btn-light">
-                                <!-- <span class="align-sub s3 user-icon position-relative top3"></span> -->
-                                <span class="d-none d-md-none d-sm-none d-md-inline-block d-xl-inline-block d-md-inline-block">Practice</span>
+                                <span class="align-sub s3 user-icon position-relative top3"></span>
+                                <i class="bi bi-bullseye"></i><span class="d-none d-md-none d-sm-none d-md-inline-block d-xl-inline-block d-md-inline-block">Practice</span>
                             </div>
                                 
                             <div class="outline1 px-2 btn btn-light">
-                                <!-- <span class="align-sub s3 user-icon position-relative top3"></span> -->
-                                <span class="d-none d-md-none d-sm-none d-md-inline-block d-xl-inline-block d-md-inline-block">Prepengine</span>
+                                <span class="align-sub s3 user-icon position-relative top3"></span>
+                                <i class='fas fa-cogs'></i></i><span class="d-none d-md-none d-sm-none d-md-inline-block d-xl-inline-block d-md-inline-block">Prepengine</span>
                             </div>
                                 
-                            <div class="outline1 px-2 btn btn-light">
-                                <!-- <span class="align-sub s3 user-icon position-relative top3"></span> -->
-                                <span class="d-none d-md-none d-sm-none d-md-inline-block d-xl-inline-block d-md-inline-block">Analytics</span>
+                            <div class="outline1 px-2 btn btn-light ">
+                                <span class="align-sub s3 user-icon position-relative top3"></span>
+                                <i class='fa fa-bar-chart'></i><span class="d-none d-md-none d-sm-none d-md-inline-block d-xl-inline-block d-md-inline-block">Analytics</span>
                             </div>
 
 
-                        </div>
+                        </div> -->
+
+
+
+
+
+
+                            <div class="third_nav1 height39 px-2 bg-light d-flex justify-content-center align-items-center ml-2">
+                            <i class="bi bi-person"></i><span class="d-none d-md-none d-sm-none d-md-inline-block d-xl-inline-block d-md-inline-block">Roaster</span>
+                            </div>
+                            
+                            <div class="third_nav2 height39 px-2 d-flex justify-content-center align-items-center">
+                                <i class='fas fa-sun mr-2'><span class="d-none d-md-none d-sm-none d-md-inline-block d-xl-inline-block d-md-inline-block"></i>Lessons</span>
+                            </div>
+                                
+                            <div class="third_nav3 height39 px-2 d-flex justify-content-center align-items-center">
+                                <i class='fas fa-bullseye mr-2'></i><span class="d-none d-md-none d-sm-none d-md-inline-block d-xl-inline-block d-md-inline-block">Practice</span>
+                            </div>
+                                
+                            <div class="third_nav4 height39 px-2 d-flex justify-content-center align-items-center">
+                                <i class='fas fa-cogs mr-2'></i><span class="d-none d-md-none d-sm-none d-md-inline-block d-xl-inline-block d-md-inline-block">
+                                    Prepengine<i class='fas fa-angle-down ml-3'></i>
+                                </span>
+                            </div>
+                                
+                            <div class="third_nav5 height39 px-2 d-flex justify-content-center align-items-center">
+                                <i class='fa fa-bar-chart mr-2'></i><span class="d-none d-md-none d-sm-none d-md-inline-block d-xl-inline-block d-md-inline-block">
+                                    Analytics<i class='fas fa-angle-down ml-3'></i>
+                                </span>
+                            </div>
+
+
+            
+
+
+
+
+
+
+
+
 
                     </div>
 
@@ -177,20 +235,280 @@
 
 
 
-            <div class="row bg-success m-t-lg first_row">
-                <!-- <table class="table table-bordered">
+            <div class="row py-3 ">
+                <table class="table r-top">
                     <thead>
-                        <tr>
-                            <td class="d-flex justify-content-center bg-danger">
-                                 <input type="checkbox" class="custom_checkbox_new px-1" > <span>1</span>
+                        <tr class="light-cyan-bg">
+                            <td class="d-flex ">
+
+                                 <div class="bg-white height20 width20 border"></div>
+                               
+                                    <div class="width15 height20 mx-1 d-flex justify-content-center align-items-center">
+                                        <i class='fas fa-angle-down'></i>
+                                    </div>
+                                
+                            </td>
+                            <td>
+                                <p class="line10">Student Name <br><span id="s1">Tag/Status <i class="bi bi-caret-up-fill"></i></span></p>
+                            </td>
+                            <td>
+                                <p class="line10">Course Name <br><span id="s1">CRN/Course Status <i class="bi bi-caret-up-fill"></i></span></p>
+                            </td>
+                            <td>
+                                <p class="line10">Instructor <br><span id="s1">Section <i class="bi bi-caret-up-fill"></i></span></p>
+                            </td>
+                            <td>
+                                <p class="line10">Readiness <br><span id="s1"><i class="bi bi-caret-up-fill"></i></span></p>
+                            </td>
+                            <td>
+                                <p class="line10">Start <br><span id="s1">Time Passed <br><i class="bi bi-caret-up-fill"></i></span></p>
+                            </td>
+                            <td>
+                                <p class="line10">Target <br><span id="s1">Time Needed <br><i class="bi bi-caret-up-fill"></i></span></p>
+                            </td>
+                            <td>
+                                <p class="line10">Estimated <br><span id="s1">Time Required <i class="bi bi-caret-up-fill"></i></span></p>
+                            </td>
+                            <td>
+                                <p class="line10">Last Login <br><span id="s1">Time Passed <br><span id="s1"><i class="bi bi-caret-up-fill"></i></span></span></p>
+                            </td>
+                            <td>
+                                <p class="line10">Actions</p>
                             </td>
                         </tr>
                     </thead>
-                </table> -->
+
+                    
+                    <tbody>
+                        <tr>
+                            <td class="align-middle disabled1">
+                                <div class="d-flex">
+                                    <div class="bg-white height20 width20 border"></div>
+                                    <label class="mx-1">1</label>
+                                </div>
+                                
+                            </td>
+
+                            <td class="align-middle disabled1">
+                                <div>
+                                    <img src="lead-image-105.png" class="img-bordered rounded-circle" width="50" height="50" alt="user"> 
+                                    <label for="Rahul Arora" class="mx-2">Rahul Arora</label>
+                                </div>
+                            </td>
+
+                            <td class="align-middle disabled1">
+                                <div>
+                                    App-Training 
+
+                                    <div>
+                                        <span id="s1">app-training</span>
+                                    </div>
+                                    <div>
+                                        <lable class="text-success"><i class='fas fa-sun'></i></lable> 
+                                        <lable class="text-success"><i class='fas fa-sun'></i></lable>
+                                    </div>
+
+                                </div>
+                            </td>
+
+                            <td  class="align-middle disabled1">
+                                <div>
+                                    Dhiroo Verma
+
+                                    <div>
+                                        <span id="s1" class="s1new px-1">new</span>
+                                    </div>
+                                </div>
+                            </td>
+
+                            <td class="disabled1 align-middle">
+                                <div class="text-success">
+                                    <div class="text-center">
+                                        <i class="bi bi-circle-half"></i>
+                                    </div>
+                                    
+                                    <div class="text-center">50%</div>
+
+                                </div>
+                            </td>
+
+                            <td  class="align-middle disabled1">
+                                <div>
+                                    24-APR-19
+
+                                    <div>
+                                        <span id="s1">2.1 years</span>
+                                    </div>
+                                </div>
+                            </td>
+
+                            <td  class="align-middle disabled1">
+                                <div>
+                                    25-JUN-19
+
+                                    <div>
+                                        <span id="s1">NA</span>
+                                    </div>
+                                </div>
+                            </td>
+
+                            <td  class="align-middle disabled1">
+                                <div>
+                                    12-JUN-23
+
+                                    <div>
+                                        <span id="s1">1.6 years</span>
+                                    </div>
+                                </div>
+                            </td>
+
+                            <td  class="align-middle disabled1">
+                                <div>
+                                    <span class="text-danger">21-FEB-21</span>
+
+                                    <div>
+                                        <span id="s1">2.3 years ago</span>
+                                    </div>
+                                </div>
+                            </td>
+
+                            <td  class="align-middle">
+                                <div class="r_cog d-flex justify-content-center align-items-center text-center width65 height36">
+                                    <div>
+                                        <lable><i class='fas fa-cog'></i></lable> 
+                                        <lable><i class='fas fa-angle-down m-l-sm'></i></lable>
+                                    </div>
+                                </div>
+                            </td>
+
+                        </tr>
 
 
-                <div class="col-sm-1 mx-auto"><input type="checkbox" class="custom_checkbox_new"></div>
-                <div class="col-sm-1 mx-auto word_break"><p>Student Name Tag/Status</p></div>
+
+
+
+                        
+                        <tr>
+                            <td class="align-middle">
+                                <div class="d-flex">
+                                    <div class="bg-white height20 width20 border"></div>
+                                    <label class="mx-1">2</label>
+                                </div>
+                                
+                            </td>
+
+                            <td class="align-middle">
+                                <div>
+                                    <img src="lead-image-105.png" class="img-bordered rounded-circle" width="50" height="50" alt="user"> 
+                                    <label for="Rahul Arora" class="mx-2">Aniket Singh</label>
+                                </div>
+                            </td>
+
+                            <td class="align-middle">
+                                <div>
+                                    App-Training 
+
+                                    <div>
+                                        <span id="s1">app-training</span>
+                                    </div>
+                                    <div>
+                                        <lable class="text-success"><i class='fas fa-sun'></i></lable> 
+                                        <lable class="text-success"><i class='fas fa-sun'></i></lable>
+                                    </div>
+
+                                </div>
+                            </td>
+
+                            <td  class="align-middle">
+                                <div>
+                                    Swati Kesarwani
+
+                                    <div>
+                                        <span id="s1" class="s1new px-1">Merged Shambhunath App</span>
+                                    </div>
+                                </div>
+                            </td>
+
+                            <td class="align-middle">
+                                <div class="text-success">
+                                    <div class="text-center">
+                                        <i class="bi bi-circle-half"></i>
+                                    </div>
+                                    
+                                    <div class="text-center">50%</div>
+
+                                </div>
+                            </td>
+
+                            <td  class="align-middle">
+                                <div>
+                                    18-FEB-17
+
+                                    <div>
+                                        <span id="s1">4.3 years</span>
+                                    </div>
+                                </div>
+                            </td>
+
+                            <td  class="align-middle">
+                                <div>
+                                    18-JUN-17
+
+                                    <div>
+                                        <span id="s1">NA</span>
+                                    </div>
+                                </div>
+                            </td>
+
+                            <td  class="align-middle">
+                                <div>
+                                    03-DEC-23
+
+                                    <div>
+                                        <span id="s1">2.5 years</span>
+                                    </div>
+                                </div>
+                            </td>
+
+                            <td  class="align-middle">
+                                <div>
+                                    <span class="text-danger">
+                                        14-MAY-17
+                                    </span>
+
+                                    <div>
+                                        <span id="s1">4.1 years ago</span>
+                                    </div>
+                                </div>
+                            </td>
+
+                            <td  class="align-middle">
+                                <div class="r_cog d-flex justify-content-center align-items-center text-center width65 height36">
+                                    <div>
+                                        <lable><i class='fas fa-cog'></i></lable> 
+                                        <lable><i class='fas fa-angle-down m-l-sm'></i></lable>
+                                    </div>
+                                </div>
+                            </td>
+
+                        </tr>
+
+
+
+
+
+
+
+
+
+
+                    </tbody>
+
+                </table>
+
+
+                <!-- <div class="col-sm-1 mx-auto"><input type="checkbox" class="custom_checkbox_new"></div>
+                <div class="col-sm-1 mx-auto text-initial"><p>Student Name Tag/Status</p></div>
                 <div class="col-sm-1 mx-auto word_break"><p>Course Name CRN/Course Status</p></div>
                 <div class="col-sm-1 mx-auto word_break"><p>Instructor Section</p></div>
                 <div class="col-sm-1 mx-auto word_break"><p>Readiness</p></div>
@@ -198,14 +516,14 @@
                 <div class="col-sm-1 mx-auto word_break"><p>Target Time Needed</p></div>
                 <div class="col-sm-1 mx-auto word_break"><p>Estimated Time Required</p></div>
                 <div class="col-sm-1 mx-auto word_break"><p>Last Login Time Passed</p></div>
-                <div class="col-sm-1 mx-auto word_break"><p>Actions</p></div>
+                <div class="col-sm-1 mx-auto word_break"><p>Actions</p></div> -->
 
 
             </div>
 
 
 
-
+<!-- 
             
             <div class="row bg-info">
 
@@ -240,7 +558,7 @@
                     <p>Actions</p>
                 </div>
 
-            </div>
+            </div> -->
 
 
 
