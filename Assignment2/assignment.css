@@ -15,6 +15,10 @@ body{
   border-radius: 2px;
 }
 
+#admin_border{
+  border: 10px;
+}
+
   .line10{
     line-height: 18px !important;
   }
@@ -28,6 +32,24 @@ body{
   .r_cog{
     border: 1px solid #5f96bf;
     border-radius: 3px;
+  }
+
+  .sec_nav1{
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+  }
+  .sec_nav4{
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+  }
+  .third_nav1{
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    background-color: aqua;
+  }
+  .third_nav5{
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
   }
   .third_nav1, .third_nav2, .third_nav3, .third_nav4, .third_nav5{
     border: 1px solid #5f96bf;
